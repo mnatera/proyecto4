@@ -68,3 +68,61 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
+
+
+
+
+
+<!-- 
+
+
+ <main>
+           <section>
+               <h1>Crear Usuario</h1>
+               <form className="login_formulario">
+                    <div>
+                        <label className="grupo_formulario">Usuario</label>
+                        <input type="text" Name="Usuario"/>
+                    </div>
+
+                    <div>
+                        <label className="grupo_formulario">Nombre</label>
+                        <input type="text" Name="Nombre"/>
+                    </div>
+
+                    <div>
+                        <label className="grupo_formulario">Apellido</label>
+                        <input type="text" Name="Apellido"/>
+                    </div>
+
+                    <div>
+                        <label className="grupo_formulario">Email</label>
+                        <input type="text" Name="Email"/>
+                    </div>
+
+                    <div>
+                        <label className="grupo_formulario">Perfil</label>
+                        <input type="text" Name="Perfil"/>
+                    </div>
+
+                    <div>
+                        <label className="grupo_formulario">Contraseña</label>
+                        <input type="text" Name="Contraseña"/>
+                    </div>
+
+                    <div>
+                        <label className="grupo_formulario">Repetir Contraseña</label>
+                        <input type="text" Name="Repetir_Contraseña"/>
+                    </div>
+
+                    <div>
+                        <input type="submit" Value="Crear"/>
+                    </div>
+
+
+               </form>
+                
+           </section>
+       </main> -->
