@@ -8,7 +8,7 @@ module.exports = {
     const { Usuario, Nombre, Apellido, Email, Perfil, Password } = reg.body;
 
     if (
-      Usuario != "" &&
+      Usuario !== "" &&
       Nombre != "" &&
       Apellido != "" &&
       Email != "" &&

@@ -1,7 +1,5 @@
-/* const Sequelize = require("sequelize");
-const sequelize = new Sequelize("mysql://root:root@127.0.0.1:3306/DWH"); */
-
-const {sequelize } = require('../Servicios/Conexion');
+const Sequelize = require("sequelize");
+const sequelize = new Sequelize("mysql://root:root@127.0.0.1:3306/DWH"); 
 const {CodificarToken } = require('./Seguridad');
 
 module.exports = {

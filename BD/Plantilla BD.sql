@@ -57,7 +57,7 @@ ID_Pais integer not null,
 ID_Ciudad integer not null
 );
 
-insert into CIUDAD (NombreEmpresa,Direccion,Email,Telefono,ID_Region,ID_Pais,ID_Ciudad) 
+insert into EMPRESA (NombreEmpresa,Direccion,Email,Telefono,ID_Region,ID_Pais,ID_Ciudad) 
 VALUES ('Consultel','Calle 54 # 44','Consultel@gmail.com','1234567890','1','2','2');
 
 

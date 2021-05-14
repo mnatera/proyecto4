@@ -1,3 +1,63 @@
+proyecto 4, Un Data WareHouse de Contactos.
+-------------------------------------------
+
+Proyecto con la libertad de realizarlo bajo cualquier tecnologia.
+------------------------------------
+
+Paquetes instalados:
+
+* sequelize
+* mysql2
+* jsonwebtoken
+* express
+* cors
+* nodemon
+* express-fileupload (Instalado Pero aun no esta Utilizado)
+
+* todos los paquetes de react estos se instalaron al momento que se inicio el proyecto con el comando
+* create-react-app data_warehouse.
+
+-----------
+
+Base de datos es MySql( MySQL Workbench).
+
+Se utilizó:
+javascript, React.js, Css, Node.js, Sass, Html.
+
+
+
+Crear BD Manual: 
+
+Importante: primero hacer la creacion de la base de datos, antes de ejecutar la pagina.
+
+En la carpeta BD existe un archivo con nombre (Plantilla BD.sql), contiene todas las sentencias SQL de toda la base de datos, este archivo se ejecuta en su totalidad en el programa de MySQL Workbench.
+
+
+-----------
+
+Ejecutar proyecto:
+
+* La pagina esta creada bajo el editor Visual Code, en la terminal llegar al directorio "\data_warehouse" en este punto ejecutar "code ."
+
+este proyecto se ejecuta con dos terminales la cual, con el puerto 3001 es para el Backend y 3000 para el Frontend.
+
+* En una de las terminales se ejecuta el siguiente comando: npx nodemon src/assets/Script/Back/Endpoint.js Donde "src/assets/Script/Back/Endpoint.js" es la ruta donde esta el
+
+archivo del Backend.
+
+
+* En la otra terminal el comando : npm start, la cual ejecuta React.
+
+* React abrira la pagina principal la cual sera loguin, en este caso se creo uno, usuario: Admin, pass: 123.
+
+* con este entrarias como administrador. ya desde este perfil puedes ingresar Usuarios, Region/Pais, Empresas, Contactos.
+
+* si quieres ver los privilegios de administrador y de ususario, solo tienes que crear un Usuario con rol(User). en este punto puedes iniciar la pagina de neuvo ó en la barra de dirrecciones solo dejar http://localhost:3000/ con esto la pagina llegara nuevamente al loguin. 
+
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
